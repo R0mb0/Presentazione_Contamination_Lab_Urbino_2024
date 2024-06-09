@@ -30,6 +30,9 @@
 \usepackage{caption}
 \captionsetup[figure]{labelformat=empty}
 
+% To set element positions
+\usepackage{ragged2e}
+
 % License
 \usepackage[
 type={CC},
@@ -100,7 +103,7 @@ version={4.0},
 \makeatother
 
 %------------------- Header --------------------
-\title[Think in 3-D]{Think in 3-D \\ \vspace*{3mm} \small \textbf{Tecnologie avanzate al servizio di riparazioni particolari e specifiche}}
+\title[Think in 3-D]{\textbf{Think in 3-D} \\ \vspace*{3mm} \small \textbf{Tecnologie avanzate al servizio di riparazioni particolari e specifiche}}
 \author[Francesco Rombaldoni]{}
 \date{}
 
@@ -110,8 +113,60 @@ version={4.0},
 		\maketitle
 		\vspace*{-20mm}
 		\begin{center}
-			Presentazione del progetto per il Contamination Lab 
+			\hspace*{3mm}
+			\textbf{Presentazione del progetto per il Contamination Lab}
+			
+			\vspace*{5mm}
+			%\newline 
+			\begin{tabularx}{\linewidth}{XX}
+				{
+				\hspace*{40mm}
+				\zoombox{\includegraphics[scale=0.2]{logo_bianco.png}}
+				}&{
+				%\hspace*{10mm}
+				\zoombox{\includegraphics[scale=0.2]{logo-uniurb-2016.jpg}}
+				}
+			\end{tabularx}
 		\end{center}
+		
+	%	\begin{tabularx}{\textwidth}{XX}
+	%		{
+	%		prova 
+	%		}&{
+	%		\vspace*{\fill}
+	%			\begin{flushright}
+	%				\zoombox{\includegraphics[scale=0.2]{logo-uniurb-2016.jpg}}
+	%			\end{flushright}
+	%		}
+	%	\end{tabularx}
+	\end{frame}
+	
+	\begin{frame}{\textbf{L'idea}}
+		\begin{itemize}
+			\item Grazie allo sviluppo dei programmi di modellazione 3-D è molto facile riprodurre virtualmente ogni tipo di oggetto.
+			\item La tecnologia della stampante in 3-D permette sempre più facilmente di costruire nella realtà gli oggetti modellati.
+			\item Quindi non c'è bisogno di buttare qualcosa che si può riparare, la collaborazione di questi due strumenti permettono di risolvere il problema.
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{\textbf{I valori della start-up}}
+		\begin{itemize}
+			\item Spesso questo genere di strumenti e di tecnologie sono state adottate da persone con competenze non tecniche per rispondere ad esigenze più artistiche che funzionali
+			\item L'utilizzo degli stessi strumenti da parte di persone con esperienza nell'ambito tecnico permette una cosciente costruzione di pezzi di ricambio che non portano i difetti progettuali delle parti originali.
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{\textbf{I valori della start-up}}
+		\begin{itemize}
+			\item Non c'è bisogno di seguire le logiche del consumismo, riparare gli oggetti non è solo una soluzione economica ma permette di ridurre la quantità di rifiuti. 
+			\item Per essere ancora più ecosostenibili, dove possibile vengono usati materiali plastici biodegradabili come il PLA.
+		\end{itemize} 
+	\end{frame}
+	
+	\begin{frame}{\textbf{I clienti di riferimento}}
+		\begin{itemize}
+			\item Le persone a cui è rivolto questo servizio sono i privati per piccole riparazioni o per la piccola produzione di gadget personalizzati ma sopratutto i centri di assistenza i quali potrebbero disporre di parti di ricambio per oggetti non più coperti dal produttore.
+		\end{itemize}
 	\end{frame}
 	
 \end{document}
