@@ -7,13 +7,10 @@
   - Document license: CC BY
 - Page3.png has been taken from [here](https://www.selwynlibraries.co.nz/whats-on/3d-printing)
   - Image license: doesn't found a evident license
-
-
-- Page32.png has been taken from [here](https://www.matterhackers.com/store/3d-printer-filament/300mm-pla-filament-red-1-kg)
+- Page4.png has been self-made
+- Page5.png has been taken from [here](http://www.polvereditempo.it/portfolio_page/la-bottega/)
   - Image license: doesn't found a evident license
-- Page41 has been taken from [here](https://www.thingiverse.com/thing:4600031)
-  - License: CC BY
-- Page42 has been taken from [here](https://porzellanprops.com/products/genshin-impact-tartaglia-childe-electro-blade-cosplay-sword-3d-printed-cosplay-kit?variant=41623920967878)
+- Page6 has been taken from [here](https://www.cpp.edu/siil/what-we-offer/equipment-training-pages/3d-training.shtml)
   - Image license: doesn't found a evident license
-- Page43 has been taken from [here](https://serraservice.it/)
+- Page7.png has been taken from [here](https://x.com/EU_Commission/status/1639613604067672065)
   - Image license: doesn't found a evident license
