@@ -33,6 +33,9 @@
 % To set element positions
 \usepackage{ragged2e}
 
+% To insert the logo in the bottom right conrner
+\usepackage{tikz}
+
 % License
 \usepackage[
 type={CC},
@@ -103,8 +106,8 @@ version={4.0},
 \makeatother
 
 %------------------- Header --------------------
-\title[Think in 3-D]{\textbf{Think in 3-D} \\ \vspace*{3mm} \small \textbf{Tecnologie 3-D per riparazioni e sostituzioni di componentistica personalizzate}}
-\author[Francesco Rombaldoni]{}
+\title[]{\textbf{Think in 3-D} \\ \vspace*{3mm} \small \textbf{Tecnologie 3-D per riparazioni e sostituzioni di componentistica personalizzate}}
+\author[Think in 3-D]{}
 \date{}
 
 \begin{document}
@@ -118,13 +121,16 @@ version={4.0},
 			
 			\vspace*{5mm}
 			%\newline 
-			\begin{tabularx}{\linewidth}{XX}
+			\begin{tabularx}{\linewidth}{XXX}
 				{
-				\hspace*{40mm}
+				\hspace*{20mm}
 				\zoombox{\includegraphics[scale=0.2]{logo_bianco.png}}
 				}&{
-				%\hspace*{10mm}
+				\hspace*{8mm}
 				\zoombox{\includegraphics[scale=0.2]{logo-uniurb-2016.jpg}}
+				}&{
+				\hspace*{10mm}
+				\zoombox{\includegraphics[scale=0.2]{Logo_contamination.png}}
 				}
 			\end{tabularx}
 		
@@ -142,6 +148,7 @@ version={4.0},
 				\small{Il seguente documento è ottimizzato per la visualizzazione digitale con \href{https://get.adobe.com/it/reader/}{\textcolor{blue}{Adobe~Acrobat~Reader}}.}  
 			\end{minipage}
 		}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (0.1, -4.1) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Fine prima slide --------------------
@@ -160,17 +167,22 @@ version={4.0},
 				\end{center}
 			}
 		\end{tabularx}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Terza slide --------------------
 	\begin{frame}{\textbf{La soluzione}}
 		\begin{itemize}
 			\item L'unione tra i moderni programmi di modellazione 3-D e le nuove tecnologie per la stampa in 3-D permette di risolvere economicamente ed efficacemente il problema.
+			\item Inoltre, si tutela l'ambiente aumentando il numero di oggetti che si possono riutilizzare. 
 		\end{itemize}
 		\vspace*{5mm}
 		\begin{center}
 			\zoombox{\includegraphics[scale=0.4]{Page2.png}}
 		\end{center}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.35) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Quarta slide --------------------
@@ -188,6 +200,8 @@ version={4.0},
 			\end{center}
 		}		
 		\end{tabularx}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.35) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Quinta slide --------------------
@@ -210,6 +224,8 @@ version={4.0},
 				\end{center}
 			}
 		\end{tabularx}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.25) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Sesta slide --------------------
@@ -228,6 +244,8 @@ version={4.0},
 				\end{center}
 			}
 		\end{tabularx}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, -0.08) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 
 		%------------------- Settima slide --------------------
@@ -251,6 +269,8 @@ version={4.0},
 				\end{center}
 			}
 		\end{tabularx}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.8) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Ottava slide --------------------
@@ -265,6 +285,8 @@ version={4.0},
 		%	\item Il team è composto da un gruppo che si occupa di curare la produzione in 3-D, da un altro che si occupa di modellare la parti di ricambio e infine da un reparto marketing. \newline Siamo tutti accumunati dal desiderio di utilizzare questa nuova tecnologia per cercare di rendere il nostro ambiente locale un pochino più pulito, riducendo il numero di prodotti che finiscono in discarica a volte anche per piccoli problemi facilmente risolvibili. \newline
 		%	Ci siamo conosciuti al Contamination Lab, dove abbiamo stretto velocemente amicizia grazie a questo desiderio in comune. 
 		\end{itemize}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.1) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 
 	%------------------- Nona slide --------------------
@@ -284,6 +306,8 @@ version={4.0},
 				\end{center}
 			}
 		\end{tabularx}
+	%\tikz[remember picture, overlay] {\node[anchor=south east, outer sep=0pt] at (15.6, 0.15) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, 0.1) {\includegraphics[scale=0.1]{logo_bianco.png}};}
 	\end{frame}
 	
 	%------------------- Chiusura --------------------
@@ -294,19 +318,30 @@ version={4.0},
 			\begin{center}
 				\vspace*{5mm}
 				%\newline 
-				\begin{tabularx}{\linewidth}{XX}
-					{
-						\hspace*{40mm}
-						\zoombox{\includegraphics[scale=0.2]{logo_bianco.png}}
-					}&{
-						%\hspace*{10mm}
-						\zoombox{\includegraphics[scale=0.2]{logo-uniurb-2016.jpg}}
-					}
-				\end{tabularx}
+			\begin{tabularx}{\linewidth}{XXX}
+				{
+					\hspace*{20mm}
+					\zoombox{\includegraphics[scale=0.2]{logo_bianco.png}}
+				}&{
+					\hspace*{8mm}
+					\zoombox{\includegraphics[scale=0.2]{logo-uniurb-2016.jpg}}
+				}&{
+					\hspace*{10mm}
+					\zoombox{\includegraphics[scale=0.2]{Logo_contamination.png}}
+				}
+			\end{tabularx}
 			
 			\vspace{5mm}
 			\tiny{\textbf{E-mail: }\href{f.rombaldoni@campus.uniurb.it}{\textcolor{blue}{f.rombaldoni@campus.uniurb.it}} \hspace*{90mm} \textbf{GitHub: }\href{https://github.com/R0mb0}{\textcolor{blue}{R0mb0}} }
 			\end{center}
 		\end{frame}
+	
+	% Frame con la licenza
+	\begin{frame}
+		\vspace*{\fill}
+		% Print license shield
+		\doclicenseThis
+		\tikz[remember picture, overlay] {\node[outer sep=0pt] at (14.9, -1.9) {\includegraphics[scale=0.1]{logo_bianco.png}};}
+	\end{frame}
 	
 \end{document}
