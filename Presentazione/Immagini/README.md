@@ -1,6 +1,6 @@
 # Images license
 
-- The logo has been made from this image: 
+- The logo has been made from this image: "http://www.freepik.com" Designed by macrovector / Freepik
 - Page1.png has been taken from [here](https://www.pa.ingv.it/index.php/laboratorio-di-elettronica/)
   - Image license: doesn't found a evident license
 - Page2.png has been taken from [here](https://www.researchgate.net/publication/313403550_3D_Modeling_and_Printing_Technologies_in_Neurosurgery)
