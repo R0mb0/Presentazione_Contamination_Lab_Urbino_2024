@@ -1,4 +1,4 @@
-<img align="right" src="https://contaminationlab.uniurb.it/wp-content/uploads/2017/02/CONTAMINATIONLAB_WEB.png">
+<img align="right" src="https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/CONTAMINATIONLAB_WEB.png">
 <h1> Presentazione Contamination Lab Urbino 2024</h1>
 Presentazione del progetto "Think in 3d" per il Contamintaion Lab di Urbino il 17/6/24
 <br>
