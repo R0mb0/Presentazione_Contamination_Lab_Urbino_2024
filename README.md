@@ -17,6 +17,28 @@ Presentazione del progetto "Think in 3d" per il Contamintaion Lab di Urbino il 1
 <br>
 <br>
 
+---
+
+<details>
+  <summary>
+    
+  ## 👉 Clicca qui per leggere la presentazione 👈
+    
+  </summary>
+
+  ![1.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/1.png)
+  ![2.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/2.png)
+  ![3.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/3.png)
+  ![4.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/4.png)
+  ![5.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/5.png)
+  ![6.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/6.png)
+  ![7.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/7.png)
+  ![8.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/8.png)
+  ![9.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/9.png)
+  ![10.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/10.png)
+  ![11.png](https://github.com/R0mb0/Presentazione_Contamination_Lab_Urbino_2024/blob/main/ReadMe_images/11.png)
+  
+</details>
 
 ---
 
